@@ -1,10 +1,26 @@
 # GoogleMapClusterDemo
 This demo show how to use Google Maps Marker Clustering
 
-![image](https://user-images.githubusercontent.com/108717119/230380846-3d3cd610-a885-4a61-99c7-59ca86f37007.png)
+## Demo includes
 
-![image](https://user-images.githubusercontent.com/108717119/230380705-eb7cf41d-ce61-4315-8ce0-bb1e8537be37.png)
+- View Binding
+- Navigation
+- Map View to load Google Map in fragment
+- Custome Marker (Vector Draable)
+- Map cluster with changing cluster background color based on condition.
+- Click of cluster to seperate the markers.
 
-![image](https://user-images.githubusercontent.com/108717119/230380755-201725d2-70b2-4217-ba64-cc59dd7a469b.png)
+## Showing Marker with different color
+![image](https://user-images.githubusercontent.com/108717119/230557875-9f85f3ad-9a4c-4c8e-8502-b8874e6fe55f.png)
 
-![image](https://user-images.githubusercontent.com/108717119/230380796-164e31e0-c066-4511-82f1-9e3774bf1bef.png)
+## Showing Title and Snippet
+![image](https://user-images.githubusercontent.com/108717119/230558012-43b2ac35-51c9-4982-a66f-4f14d0c9c0de.png)
+
+## Shwoing cluster of marker when zoom out. Ex1
+![image](https://user-images.githubusercontent.com/108717119/230557909-19b763f0-082f-4b43-999d-52f226c715bb.png)
+
+## Shwoing cluster of marker when zoom out. Ex2
+![image](https://user-images.githubusercontent.com/108717119/230557932-ca0f6c53-5576-4828-bfbc-9e024c425369.png)
+
+## Shwoing cluster of marker when zoom out. Ex3
+![image](https://user-images.githubusercontent.com/108717119/230557965-1e2d5b41-81d8-4120-9198-7212d293c2d9.png)
