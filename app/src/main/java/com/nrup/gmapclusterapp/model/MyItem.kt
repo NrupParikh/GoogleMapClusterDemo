@@ -4,13 +4,14 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.maps.android.clustering.ClusterItem
 
 data class MyItem(
-    val lat: Double = 0.0,
-    val long: Double = 0.0,
+    val id: Int = 0,
+    val latitude: Double = 0.0,
+    val longitude: Double = 0.0,
     val markerTitle: String? = "",
-    val markerSnippet: String? = ""
+    val markerSnippet: String? = "",
 ) : ClusterItem {
     override fun getPosition(): LatLng {
-        return LatLng(lat, long)
+        return LatLng(latitude, longitude)
     }
 
     override fun getTitle(): String? {
