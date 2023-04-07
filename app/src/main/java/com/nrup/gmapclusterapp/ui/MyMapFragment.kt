@@ -85,7 +85,13 @@ class MyMapFragment : Fragment(), GoogleMap.OnMarkerClickListener {
             lat += offset
             lng += offset
             val offsetItem =
-                MyItem(id, lat, lng, "Title $id", "Snippet $id")
+                MyItem(
+                    id = id,
+                    latitude = lat,
+                    longitude = lng,
+                    markerTitle = "Title $id",
+                    markerSnippet = "Snippet $id"
+                )
             clusterManager.addItem(offsetItem)
         }
 
