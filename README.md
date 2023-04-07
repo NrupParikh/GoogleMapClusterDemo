@@ -6,9 +6,9 @@ This demo show how to use Google Maps Marker Clustering
 - View Binding
 - Navigation
 - Map View to load Google Map in fragment
-- Custome Marker (Vector Draable)
+- Custom Marker (Vector Drawable)
 - Map cluster with changing cluster background color based on condition.
-- Click of cluster to seperate the markers.
+- Click on the cluster to separate the markers.
 
 ## Showing Marker with different color
 ![image](https://user-images.githubusercontent.com/108717119/230557875-9f85f3ad-9a4c-4c8e-8502-b8874e6fe55f.png)
